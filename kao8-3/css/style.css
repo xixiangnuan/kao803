@@ -1,0 +1,72 @@
+body {
+  font-size: 0.14rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.44rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #393A3F;
+  color: #ffffff;
+  padding-left: 0.4rem;
+  line-height: 0.44rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background-color: #818D9B;
+  position: relative; }
+
+.cont {
+  width: 3rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 0.04rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.tit {
+  text-align: center;
+  padding: 0.2rem 0; }
+  .tit img {
+    height: 0.32rem; }
+  .tit p {
+    padding: 0.1rem 0; }
+
+.phone {
+  width: 2.2rem;
+  margin-left: 0.4rem;
+  height: 0.6rem;
+  border-bottom: 1px solid #ccc;
+  position: relative; }
+  .phone img {
+    height: 0.2rem;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.28rem; }
+  .phone input {
+    position: absolute;
+    left: 0.4rem;
+    top: 0.3rem;
+    border: none; }
+
+.btn {
+  width: 80%;
+  margin-left: 10%;
+  height: 0.38rem;
+  border-radius: 0.05rem;
+  background-color: #2FBA77;
+  text-align: center;
+  line-height: 0.38rem;
+  color: #ffffff;
+  margin-top: 0.4rem; }
+
+/*# sourceMappingURL=style.css.map */
